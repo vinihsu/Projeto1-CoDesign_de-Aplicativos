@@ -3,35 +3,57 @@
 </style>
 
 *{
-  background: #1f403e;
+  background: #000;
 }
 
-#header {
+body {
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header{
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 80px;
-  color: #65cfca;
+  color: #FF6B09;
   text-align: center;
-  margin-top: 0px;
-  border-bottom: 15px solid #1f403e;
-  border-top: 5px solid #1f403e;
-  padding: #1f403e;
-  background: #1f403e;
-}
-
-ul {
-   list-style-type:none;
-   margin:-40px auto auto 0px;
-   padding:0;
-   position: absolute;
-   font-size: 20px
+  border-bottom: 15px solid black;
+  border-top: 5px solid black;
+  padding: black;
+  background: black;
 }
 
 li{
   display:inline-block;
-  float: center;
+  margin-top: -100px;
   margin-left: 182px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 50px;
-  padding-left: 10px;
+}
+
+hr {
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 1px solid #FF6B09;
+    margin: 1em 0;
+    padding: 0;
+}
+
+a:link{
+    color: #FF6B09;
+    text-decoration:none;
+}
+
+a:visited{
+    color: #FF6B09;
+    text-decoration:none;
+}
+
+a:hover{
+    color:gray;
+    text-decoration:underline;
+}
+
+a:active{
+    color:#FF6B09;
+    text-decoration:none
 }
