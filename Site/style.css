@@ -4,18 +4,21 @@
 
 *{
   background: #000;
+
 }
 
 body {
     background-image: url(fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
 #header{
-  font-family: 'Archivo Narrow', sans-serif;
+  
   font-size: 80px;
   color: #FF6B09;
+  text-transform: uppercase;
   text-align: center;
   border-bottom: 15px solid black;
   border-top: 5px solid black;
@@ -27,6 +30,9 @@ li{
   display:inline-block;
   margin-top: -100px;
   margin-left: 182px;
+
+
+
 }
 
 hr {
@@ -56,4 +62,22 @@ a:hover{
 a:active{
     color:#FF6B09;
     text-decoration:none
+}
+
+.conteudo{
+  color: white;
+  border-style: solid;
+  border-color: black;
+  max-width: 1000px;
+  max-height: 500px;
+  text-align: justify;
+  padding: 10px 38px 10px 0px;
+  background-color: black;
+  margin: 50px auto auto auto;
+  border-radius: 10px;
+  line-height: 1.5em;
+
+  
+
+
 }
