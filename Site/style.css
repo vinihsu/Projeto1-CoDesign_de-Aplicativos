@@ -29,7 +29,7 @@ body {
 li{
   display:inline-block;
   margin-top: -100px;
-  margin-left: 182px;
+  margin-left: 190px;
 
 
 
@@ -65,7 +65,7 @@ a:active{
 }
 
 .conteudo{
-  color: white;
+  color: gray;
   border-style: solid;
   border-color: black;
   max-width: 1000px;
@@ -73,11 +73,38 @@ a:active{
   text-align: justify;
   padding: 10px 38px 10px 0px;
   background-color: black;
-  margin: 50px auto auto auto;
+  margin: -70px auto auto auto;
   border-radius: 10px;
   line-height: 1.5em;
 
-  
+  }
 
+img{
+  margin: 20px auto auto 450px;
+}
 
+#fotobrunao{
+  margin: 20px auto auto 80px;
+}
+
+#fotobebeh{
+  margin: 20px auto auto 80px;
+}
+
+#fotohsu{
+  margin: 20px auto auto 80px;
+}
+
+.contatos{
+  color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 500px;
+  max-height: 500px;
+  text-align: justify;
+  padding: 10px 38px 10px 0px;
+  background-color: black;
+  margin: -40px auto auto auto;
+  border-radius: 10px;
+  line-height: 1.5em;
 }
