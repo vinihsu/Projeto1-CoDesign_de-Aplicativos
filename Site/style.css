@@ -1,18 +1,19 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i|Comfortaa:300,400,700|Encode+Sans+Condensed:200,300,400,500,600,700,800,900|Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
-</style>
 
-*{
-  background: #000;
+@font-face {
+font-family: 'Nunito';
+src: url('NunitoSans-Regular.ttf') format('truetype'),
 
+font-weight: normal;
+font-style: normal;
 }
 
 body {
     background-image: url(fundo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
+
 
 #header{
   
@@ -25,6 +26,7 @@ body {
   padding: black;
   background: black;
 }
+
 
 li{
   display:inline-block;
@@ -79,32 +81,87 @@ a:active{
 
   }
 
-img{
+.foto{
   margin: 20px auto auto 450px;
 }
 
-#fotobrunao{
-  margin: 20px auto auto 80px;
+.imperial{
+  display: inline-block;
+  margin-left: 160px;
+  margin-top: 20px;
 }
 
-#fotobebeh{
-  margin: 20px auto auto 80px;
+
+.bateria{
+
+  display: inline-block;
+
 }
 
-#fotohsu{
-  margin: 20px auto auto 80px;
-}
-
-.contatos{
+#brunao{
+  display: inline-block;  
   color: gray;
   border-style: solid;
   border-color: black;
-  max-width: 500px;
+  max-width: 300px;
   max-height: 500px;
   text-align: justify;
-  padding: 10px 38px 10px 0px;
+  padding: 10px 20px;
   background-color: black;
-  margin: -40px auto auto auto;
+  margin: auto auto auto 110px;
   border-radius: 10px;
-  line-height: 1.5em;
+  line-height: 0.5em;
+
 }
+
+#bebeh{
+  display: inline-block;
+  color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 300px;
+  max-height: 500px;
+  text-align: justify;
+  padding: 10px 20px;
+  background-color: black;
+  margin: -20px auto auto 65px;
+  border-radius: 10px;
+  line-height: 0.5em;
+
+}
+
+#hsu{
+  display: inline-block;
+  color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 300px;
+  max-height: 500px;
+  text-align: justify;
+  padding: 10px 20px;
+  background-color: black;
+  margin: auto auto auto 60px;
+  border-radius: 10px;
+  line-height: 0.5em;
+
+}
+
+.menu_inferior{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
+
+#footer{
+  
+  font-size: 15px;
+  color: black;
+  text-align: right;
+  border-bottom: 0px;
+  border-top: 1px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  background: #FF6B09;
+}
+
