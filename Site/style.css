@@ -22,13 +22,14 @@ body {
   border-top: 5px solid black;
   padding: black;
   background: black;
-  margin-bottom: 10px
+  margin-bottom: 3px
 }
 
 
 li{
   display:inline-block;
-  margin-top: -100px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-left: 190px;
 
 
@@ -37,10 +38,9 @@ li{
 
 hr {
     display: block;
-    height: 0px;
     border: 0;
     border-top: 1px solid #FF6B09;
-    margin: 1em 60px auto 60px;
+    margin: auto 60px auto 60px;
     padding: 0;
 }
 
@@ -87,15 +87,14 @@ a:active{
 .imperial{
   display: inline-block;
   margin-left: 160px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 
 .bateria{
 
   display: inline-block;
-  margin-bottom: 60px
-
+  margin-bottom: auto;
 }
 
 #brunao{
@@ -106,7 +105,7 @@ a:active{
   max-width: 300px;
   max-height: 500px;
   text-align: justify;
-  padding: 10px 20px;
+  padding: 0 20px 10px 20px;
   background-color: black;
   margin: auto auto auto 110px;
   border-radius: 10px;
@@ -122,7 +121,7 @@ a:active{
   max-width: 300px;
   max-height: 500px;
   text-align: justify;
-  padding: 10px 20px;
+  padding: 0 20px 10px 20px;
   background-color: black;
   margin: -20px auto auto 65px;
   border-radius: 10px;
@@ -138,7 +137,7 @@ a:active{
   max-width: 300px;
   max-height: 500px;
   text-align: justify;
-  padding: 10px 20px;
+  padding: 0 20px 10px 20px;
   background-color: black;
   margin: auto auto auto 60px;
   border-radius: 10px;
@@ -146,24 +145,100 @@ a:active{
 
 }
 
-.menu_inferior{
-  margin-top: 50px;
-  margin-left: 50px;
-}
-
 
 
 #footer{
   
-  font-size: 30px;
+  font-size: 20px;
   color: black;
   text-align: right;
-  border-top: 1px;
+  border-top: auto;
   padding-right: 10px;
   padding-bottom: auto;
   background: #FF6B09;
   margin-bottom: auto;
-  margin-top: 70px;
+  margin-top: 40px;
+}
+
+a#insper:link {
+ color:black;
+}
+
+a#insper:hover {
+ color:white;
 }
 
 
+a#insper:visited {
+ color:black;
+}
+
+a.linkssociais:link {
+color: gray;
+}
+
+a.linkssociais:hover {
+text-decoration: underline;
+}
+
+a.linkssociais:visited {
+color: gray;
+}
+
+.nomes{
+  text-align: center;
+  font-size: 1.1em;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    margin: auto;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FF6B09;
+    min-width: 160px;
+    
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: black; 
+  color:gray;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    align-content: center;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #FF6B09;
+    background-color: transparent;
+
+}

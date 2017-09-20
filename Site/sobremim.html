@@ -1,21 +1,44 @@
 <html>
 <head>
-  <title>Sobre Mim</title>
+  <title>Contato</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <h1 id="header">Sobre N&oacute;s</h1>
+    <h1 id="header">Sobre Nós</h1>
   </header>
   
-  <div id= "menu_superior">
-    <ul class = "wrapper-menu">
-        <li><a href="index.html"= > Home </a></li>
-        <li><a href="portfolio.html" > Portf&oacute;lio</a></li>
-        <li><a href="sobremim.html" > Sobre N&oacute;s</a></li>
-        <li><a href="contato.html" > Contato </a></li>
+  <div class= "menu_superior">
+    <ul>
+      <li><a href="index.html"= > Home </a></li>
+      <li>
+      <div class="dropdown">
+          <div class="dropbtn">
+            <a href="portfolio.html" > Portf&oacute;lio</a> 
+          </div>
+            <div class="dropdown-content">
+              <a href= "brunao.html">Engenharia Mecânica</a>
+              <a href= "bebeh.html">Engenharia Mecatrônica</a>
+              <a href= "hsu.html">Engenharia da Computação</a>
+            </div>
+        </div>  
+      </li>
+      <li> 
+        <div class="dropdown">
+          <div class="dropbtn">
+            <a href="sobremim.html" > Sobre N&oacute;s </a> 
+          </div>
+            <div class="dropdown-content">
+              <a href= "brunao.html">Bruno Costa</a>
+              <a href= "bebeh.html">Rebecca Cohen</a>
+              <a href= "hsu.html">Vinicius Hsu</a>
+            </div>
+        </div>
+      </li>
+      <li><a href="contato.html" > Contato </a></li>
     </ul>
-  </div>
+   </div>
+  
   <hr <div class="block_1"></div> </hr>
 
 
@@ -23,7 +46,7 @@
     
   
 <div class="foto">
-  <img src="fotobrunao.png" width="350">
+  <a href= "brunao.html"> <img src="fotobrunao.png" width="350" ></a> 
 </div>
 
   <div class= "conteudo">
@@ -36,7 +59,7 @@
   
 
 <div class="foto">
-  <img src="fotobebeh.png" width="350">
+  <a href= "bebeh.html"> <img src="fotobebeh.png" width="350"> </a>
 </div>
 
   <div class= "conteudo">
@@ -47,7 +70,7 @@
   <hr <div class="block_1"></div> </hr>
 
 <div class="foto">
-  <img src="fotohsu.png" width="350">
+  <a href= "hsu.html"> <img src="fotohsu.png" width="350"> </a>
 </div>
 
   <div class= "conteudo">
@@ -57,10 +80,12 @@
 
   
 
-
 <div id="footer">
-  <a href="https://www.insper.edu.br/"= > Insper </a>
+
+  <a id= "insper" href="https://www.insper.edu.br/" target="_blank" > Insper </a>
+ 
 </div>
+
 
 
 </body>
