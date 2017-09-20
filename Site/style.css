@@ -1,10 +1,8 @@
-
 @font-face {
-font-family: 'Nunito';
-src: url('NunitoSans-Regular.ttf') format('truetype'),
 
-font-weight: normal;
-font-style: normal;
+
+    font-family: Nunito;
+    src: url(Nunitosans-Regular.ttf)
 }
 
 body {
@@ -17,14 +15,14 @@ body {
 
 #header{
   
-  font-size: 80px;
+  font-size: 50px;
   color: #FF6B09;
-  text-transform: uppercase;
   text-align: center;
   border-bottom: 15px solid black;
   border-top: 5px solid black;
   padding: black;
   background: black;
+  margin-bottom: 10px
 }
 
 
@@ -42,7 +40,7 @@ hr {
     height: 0px;
     border: 0;
     border-top: 1px solid #FF6B09;
-    margin: 1em 0;
+    margin: 1em 60px auto 60px;
     padding: 0;
 }
 
@@ -51,6 +49,7 @@ a:link{
     text-decoration:none;
 }
 
+
 a:visited{
     color: #FF6B09;
     text-decoration:none;
@@ -58,7 +57,7 @@ a:visited{
 
 a:hover{
     color:gray;
-    text-decoration:underline;
+    
 }
 
 a:active{
@@ -73,28 +72,29 @@ a:active{
   max-width: 1000px;
   max-height: 500px;
   text-align: justify;
-  padding: 10px 38px 10px 0px;
+  padding: 10px 20px 10px 20px;
   background-color: black;
-  margin: -70px auto auto auto;
+  margin: -70px auto 50px auto;
   border-radius: 10px;
   line-height: 1.5em;
 
   }
 
 .foto{
-  margin: 20px auto auto 450px;
+  margin: 70px auto auto 450px;
 }
 
 .imperial{
   display: inline-block;
   margin-left: 160px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 
 .bateria{
 
   display: inline-block;
+  margin-bottom: 60px
 
 }
 
@@ -155,13 +155,15 @@ a:active{
 
 #footer{
   
-  font-size: 15px;
+  font-size: 30px;
   color: black;
   text-align: right;
-  border-bottom: 0px;
   border-top: 1px;
   padding-right: 10px;
-  padding-bottom: 1px;
+  padding-bottom: auto;
   background: #FF6B09;
+  margin-bottom: auto;
+  margin-top: 70px;
 }
+
 
