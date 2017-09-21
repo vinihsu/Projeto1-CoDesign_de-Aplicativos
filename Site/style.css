@@ -15,6 +15,7 @@ body {
 
 #header{
   
+  text-transform:uppercase;
   font-size: 50px;
   color: #FF6B09;
   text-align: center;
@@ -23,7 +24,7 @@ body {
   padding: black;
   background: black;
   margin-bottom: 3px
-}
+  }
 
 
 li{
