@@ -1,17 +1,27 @@
 @font-face {
-
-
     font-family: Nunito;
     src: url(Nunitosans-Regular.ttf)
 }
 
+.container{
+	min-width: 	1100px;
+}
+
+
 body {
-    background-image: url(fundo.jpg);
+    background-image: url(fotos/fundo.jpg);
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
+    max-width:200%; 
+    min-width: 100%;
     font-family: 'Nunito', sans-serif;
 }
 
+#noscroll{
+	position: fixed;
+}
 
 #header{
   
@@ -78,24 +88,31 @@ a:active{
   margin: -70px auto 50px auto;
   border-radius: 10px;
   line-height: 1.5em;
-
   }
 
-.foto{
-  margin: 70px auto auto 450px;
+.foto{ 
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 25%;
 }
 
-.imperial{
+#fablab{
+	margin-top: 30px;
+}
+.fotinhos{
   display: inline-block;
-  margin-left: 160px;
+  margin-left: auto;
+  padding-left: 170px;
   margin-top: 20px;
 }
 
 
-.bateria{
+.listacontato{
 
   display: inline-block;
-  margin-bottom: auto;
+  margin-left: auto;
+  margin-top: 20px;
 }
 
 #brunao{
@@ -124,7 +141,7 @@ a:active{
   text-align: justify;
   padding: 0 20px 10px 20px;
   background-color: black;
-  margin: -20px auto auto 65px;
+  margin: -20px auto auto 85px;
   border-radius: 10px;
   line-height: 0.5em;
 
@@ -140,13 +157,40 @@ a:active{
   text-align: justify;
   padding: 0 20px 10px 20px;
   background-color: black;
-  margin: auto auto auto 60px;
+  margin: auto auto auto 75px;
   border-radius: 10px;
   line-height: 0.5em;
 
 }
 
+.conteudoeng{
+  color: gray;
+  border-style: solid;
+  border-color: black;
+  max-width: 1000px;
+  max-height: 500px;
+  text-align: justify;
+  padding: 0 20px 0 20px;
+  background-color: black;
+  margin: -210px 20px 100px 250px;
+  border-radius: 10px;
+  line-height: 1.5em;
+  }
 
+.projetos{
+  display: inline-block;
+  margin-left: auto;
+  padding-left: 30px;
+  margin-top: 0px;
+}
+
+#fotopinguiche{
+	margin-top: 80px;
+}
+
+#pinguiche{
+	margin-top: -135px;
+}
 
 #footer{
   
@@ -162,28 +206,41 @@ a:active{
 }
 
 a#insper:link {
- color:black;
+  color:black;
 }
 
 a#insper:hover {
- color:white;
+  color:white;
 }
 
 
 a#insper:visited {
- color:black;
+  color:black;
+}
+
+a.saibamais:link{
+  color: gray;
+}
+
+a.saibamais:hover {
+  color: #FF6B09 !important;
+}
+
+
+a.saibamais:visited {
+  color:gray;
 }
 
 a.linkssociais:link {
-color: gray;
+  color: gray;
 }
 
 a.linkssociais:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 a.linkssociais:visited {
-color: gray;
+  color: gray;
 }
 
 .nomes{
