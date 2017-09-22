@@ -105,6 +105,10 @@ a:active{
   width: 25%;
 }
 
+#brain{
+  margin-bottom: 150px !important;
+}
+
 #fablab{
 	margin-top: 30px;
 }
