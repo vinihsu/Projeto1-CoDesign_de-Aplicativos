@@ -7,6 +7,10 @@
 	min-width: 	1100px;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     background-image: url(fotos/fundo.jpg);
@@ -97,6 +101,14 @@ a:active{
   width: 25%;
 }
 
+#fotocomps{
+  margin-bottom: 60px !important;
+}
+
+#fotocomps{
+  margin-bottom: 100px !important;
+}
+
 .fotoprojeto{ 
   display: block;
   margin: auto;
@@ -106,8 +118,13 @@ a:active{
 }
 
 #brain{
-  margin-bottom: 150px !important;
+  margin-bottom: auto !important;
 }
+
+#gdetext{
+  margin-bottom: 120px !important;
+}
+
 
 #fablab{
 	margin-top: 30px;
