@@ -97,6 +97,14 @@ a:active{
   width: 25%;
 }
 
+.fotoprojeto{ 
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  width: 25%;
+}
+
 #fablab{
 	margin-top: 30px;
 }
