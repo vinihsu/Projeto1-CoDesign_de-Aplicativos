@@ -85,7 +85,7 @@ a:active{
   border-style: solid;
   border-color: black;
   max-width: 1010px;
-  max-height: 500px;
+  max-height: 700px;
   text-align: justify;
   padding: 10px 20px 10px 20px;
   background-color: black;
@@ -93,6 +93,10 @@ a:active{
   border-radius: 10px;
   line-height: 1.5em;
   }
+
+.PP{
+  color:#FF6B09;
+}
 
 .foto{ 
   display: block;
