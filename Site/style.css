@@ -106,7 +106,8 @@ a:active{
 }
 
 #fotoseng{
-  margin-left: 530px;
+  margin: center;
+
 }
 
 #fotofablab{
@@ -281,16 +282,30 @@ a#insper:visited {
 }
 
 a.saibamais:link{
-  color: gray;
+  color: #FF6B09 ;
 }
 
 a.saibamais:hover {
-  color: #FF6B09 !important;
+  color: gray !important;
+  
 }
 
 
 a.saibamais:visited {
-  color:gray;
+  color:#FF6B09 ;
+}
+
+a.saibamaisprojetos:link{
+  color: grey ;
+}
+
+a.saibamaisprojetos:hover {
+  color: #FF6B09 !important;
+}
+
+
+a.saibamaisprojetos:visited {
+  color: gray ;
 }
 
 a.linkssociais:link {
